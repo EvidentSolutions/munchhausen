@@ -69,7 +69,7 @@ public final class Bootstrap {
         }
     }
 
-    private URL[] getClassPathUrls() throws BootstrapException {
+    private URL[] getClassPathUrls() {
         List<File> paths = new ArrayList<File>();
 
         paths.addAll(resourceDirectories);

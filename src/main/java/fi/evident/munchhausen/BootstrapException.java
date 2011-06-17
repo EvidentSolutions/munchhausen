@@ -23,11 +23,11 @@
 package fi.evident.munchhausen;
 
 class BootstrapException extends Exception {
-    public BootstrapException(String message) {
+    BootstrapException(String message) {
         super(message);
     }
 
-    public BootstrapException(String message, Throwable cause) {
+    BootstrapException(String message, Throwable cause) {
         super(message, cause);
     }
 }
