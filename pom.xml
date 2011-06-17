@@ -7,11 +7,12 @@
 
     <groupId>fi.evident.munchhausen</groupId>
     <artifactId>munchhausen</artifactId>
-    <version>0.1</version>
+    <version>0.3</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -31,6 +32,17 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>fi.evident.munchhausen.Bootstrap</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+             </plugin>
         </plugins>
     </build>
 </project>
