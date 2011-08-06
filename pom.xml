@@ -57,7 +57,7 @@
     <distributionManagement>
         <repository>
             <id>evident-maven-repo</id>
-            <url>scpexe://server.evident.fi/var/www-external/maven</url>
+            <url>scpexe://maven.evident.fi/var/www-maven</url>
         </repository>
     </distributionManagement>
 </project>
