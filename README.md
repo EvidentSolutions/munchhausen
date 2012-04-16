@@ -23,13 +23,13 @@ can simply say:
 
     java -Dbootstrap.mainclass=foo.FooMain -jar munchhausen-x.y.jar <arguments>
 
-The \<arguments\> are passed directly to application's main method.
+The arguments are passed directly to application's main method.
 
 Configuration properties
 ========================
 
 The following system properties can be used to customize the functionality:
 
-  * _bootstrap.mainclass_     The main class of the application. (Required.)
-  * _bootstrap.libdir_        Root-directory for scanned JAR-files. (Default is current directory.)
-  * _bootstrap.resourcedir_   Additional directory added to classpath. (Optional.)
+  * _bootstrap.mainclass_ - The main class of the application. (Required.)
+  * _bootstrap.libdir_ - Root-directory for scanned JAR-files. (Default is current directory.)
+  * _bootstrap.resourcedir_ - Additional directory added to classpath. (Optional.)
