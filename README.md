@@ -1,3 +1,6 @@
+Introduction
+============
+
 Münchhausen is a utility for bootstrapping Java programs.
 
 Java programs often need a bunch of JAR-files in classpath in order to run,
@@ -18,16 +21,15 @@ To start an application whose main-class is "foo.FooMain" and whose JAR files
 are found somewhere in the directory tree rooted at current directory, you
 can simply say:
 
-  java -Dbootstrap.mainclass=foo.FooMain -jar munchhausen-x.y.jar <arguments>
+    java -Dbootstrap.mainclass=foo.FooMain -jar munchhausen-x.y.jar <arguments>
 
-The <arguments> are passed directly to application's main method.
+The \<arguments\> are passed directly to application's main method.
 
 Configuration properties
 ========================
 
 The following system properties can be used to customize the functionality:
 
-  bootstrap.mainclass     The main class of the application. (Required.)
-  bootstrap.libdir        Root-directory for scanned JAR-files.
-                          (Default is current directory.)
-  bootstrap.resourcedir   Additional directory added to classpath. (Optional.)
+  * _bootstrap.mainclass_     The main class of the application. (Required.)
+  * _bootstrap.libdir_        Root-directory for scanned JAR-files. (Default is current directory.)
+  * _bootstrap.resourcedir_   Additional directory added to classpath. (Optional.)
