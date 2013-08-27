@@ -14,6 +14,8 @@ Münchhausen is dedicated to Baron Münchhausen who, according to a German
 legend, was able to lift himself out of a swamp by pulling himself up by
 his bootstraps.
 
+[![Build Status](https://drone.io/bitbucket.org/evidentsolutions/munchhausen/status.png)](https://drone.io/bitbucket.org/evidentsolutions/munchhausen/latest)
+
 Basic usage
 ===========
 
